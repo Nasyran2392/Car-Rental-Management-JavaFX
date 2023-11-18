@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="settings_form" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1">
+    
+     <Label text="Admin Username:" />
+    <TextField fx:id="adminUsernameField" />
+    
+    <Label text="Admin Current Password:" />
+    <PasswordField fx:id="currentPasswordField" />
+
+    <!-- Other components for changing the password -->
+
+    <Button fx:id="changePasswordBtn" text="Change Password" onAction="#changeAdminPassword" />
+</AnchorPane>
+
+</AnchorPane>
